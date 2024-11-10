@@ -7,21 +7,6 @@
 
 import SwiftUI
 
-/*struct NavigationBar: View {
-    var body: some View {
-        HStack{
-            Button("Flavio Bergamini") {
-                
-            }
-            .font(.headline)
-            .fontWeight(.bold)
-            Button(action:{}) {
-                Image(systemName: "plus.square.fill")
-            }.font(.title2).foregroundStyle(.gray)
-        }
-    }
-} */
-
 struct NavigationBar: View {
     @State private var selectedUser: String = "Flavio Bergamini"
     @State private var isShowingAddUserModal = false
